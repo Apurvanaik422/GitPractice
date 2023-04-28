@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="5" name="Ecommerce Framework Suite">
+    <groups>
+        <run>
+            <include name="ErrorHandling"></include>
+        </run>
+    </groups>
+    <test  verbose="2" preserve-order="true" name="AddProductTest">
+<classes>
+    <class name="org.example.StandAloneTest"></class>
+</classes>
+    </test>
+
+    <test  name="Error Validation Test">
+        <classes>
+            <class name="org.example.ErrormessageScenariosTest"></class>
+        </classes>
+    </test>
+
+
+</suite>

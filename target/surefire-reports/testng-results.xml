@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-03T00:20:06 IST" name="Ecommerce Framework Suite" finished-at="2023-02-03T00:20:43 IST" duration-ms="37015">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrormessageScenariosTest.errorMsgValidation()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" name="errorMsgValidation" class="org.example.ErrormessageScenariosTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="StandAloneTest.addToCartTest(java.util.HashMap)[pri:0, instance:org.example.StandAloneTest@764faa6]" name="addToCartTest" class="org.example.StandAloneTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-02-03T00:20:06 IST" name="Error Validation Test" finished-at="2023-02-03T00:20:24 IST" duration-ms="17867">
+      <class name="org.example.ErrormessageScenariosTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:06 IST" name="launchApplication" finished-at="2023-02-03T00:20:09 IST" duration-ms="2992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="errorMsgValidation()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:09 IST" name="errorMsgValidation" finished-at="2023-02-03T00:20:09 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMsgValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:09 IST" name="tearDown" finished-at="2023-02-03T00:20:09 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:09 IST" name="launchApplication" finished-at="2023-02-03T00:20:11 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="productCartvalidation()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:11 IST" name="productCartvalidation" finished-at="2023-02-03T00:20:15 IST" duration-ms="3658" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at org.example.ErrormessageScenariosTest.productCartvalidation(ErrormessageScenariosTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCartvalidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:15 IST" name="tearDown" finished-at="2023-02-03T00:20:15 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:15 IST" name="launchApplication" finished-at="2023-02-03T00:20:20 IST" duration-ms="4783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productCartvalidation()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:20 IST" name="productCartvalidation" finished-at="2023-02-03T00:20:23 IST" duration-ms="3602" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at org.example.ErrormessageScenariosTest.productCartvalidation(ErrormessageScenariosTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productCartvalidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.ErrormessageScenariosTest@1fde5d22]" started-at="2023-02-03T00:20:23 IST" name="tearDown" finished-at="2023-02-03T00:20:24 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.ErrormessageScenariosTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-02-03T00:20:06 IST" name="AddProductTest" finished-at="2023-02-03T00:20:43 IST" duration-ms="37015">
+      <class name="org.example.StandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:06 IST" name="launchApplication" finished-at="2023-02-03T00:20:11 IST" duration-ms="4346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addToCartTest(java.util.HashMap)[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:11 IST" name="addToCartTest" data-provider="getDataJson" finished-at="2023-02-03T00:20:15 IST" duration-ms="4935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Improve@1234, email=apurvanaik42@academy.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:15 IST" name="tearDown" finished-at="2023-02-03T00:20:16 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:16 IST" name="launchApplication" finished-at="2023-02-03T00:20:18 IST" duration-ms="2685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addToCartTest(java.util.HashMap)[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:18 IST" name="addToCartTest" data-provider="getDataJson" finished-at="2023-02-03T00:20:23 IST" duration-ms="4641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Improve@1234, email=apurvanaik43@academy.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:23 IST" name="tearDown" finished-at="2023-02-03T00:20:23 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:23 IST" name="launchApplication" finished-at="2023-02-03T00:20:26 IST" duration-ms="2785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyOrderPlacedTest()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:26 IST" name="verifyOrderPlacedTest" finished-at="2023-02-03T00:20:27 IST" depends-on-methods="org.example.StandAloneTest.addToCartTest" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderPlacedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.example.StandAloneTest@764faa6]" started-at="2023-02-03T00:20:27 IST" name="tearDown" finished-at="2023-02-03T00:20:43 IST" duration-ms="16288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.example.StandAloneTest -->
+    </test> <!-- AddProductTest -->
+  </suite> <!-- Ecommerce Framework Suite -->
+</testng-results>

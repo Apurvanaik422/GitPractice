@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="5" name="Ecommerce Framework Suite">
+    <groups>
+        <run>
+            <include name="purchase"></include>
+        </run>
+    </groups>
+    <test  verbose="2" preserve-order="true" name="PurchaseOrderTest">
+        <classes>
+
+            <class name="org.example.StandAloneTest"></class>
+        </classes>
+    </test>
+</suite>
